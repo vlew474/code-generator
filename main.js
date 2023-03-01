@@ -1,4 +1,4 @@
-const message = 'Welcome! Please enter your phrase for submission.' // welcome message
+const message = 'Welcome! Please enter your phrase for submission.'; // welcome message
 
 const codes = ['FSPDHJW', 'GWJRTOC', 'YWJMFIK', 'PWUNFJU'];
 
@@ -20,4 +20,4 @@ function phrase(string = 'Please enter a valid phrase.') {
 
 // Log to console
 console.log(message);
-console.log(phrase('SOL is 4 poors'))
+console.log(phrase('SOL is 4 poors'));
