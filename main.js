@@ -1,17 +1,18 @@
-const message = 'Welcome! Please enter your phrase for submission.'; // welcome message
+// welcome message
+const message = 'Welcome! Please enter your phrase for submission.'; 
 
 const codes = ['FSPDHJW', 'GWJRTOC', 'YWJMFIK', 'PWUNFJU'];
 
 const random = Math.floor(Math.random() * codes.length);
 
 function phrase(string = 'Please enter a valid phrase.') {
-  if (string === '$SOL is 4 poorz') {
+  if (string === 'I have a fish') {
     return console.log(codes[random]);
-  } else if (string === 'SOL is 4 poors') {
+  } else if (string === 'I have a bird') {
     return console.log(codes[random]);
-  } else if (string === 'sol is for poors') {
+  } else if (string === 'I have a cat') {
     return console.log(codes[random]);
-  } else if (string === 'sol is for poorz') {
+  } else if (string === 'I have a dog') {
     return console.log(codes[random]);
   } else {
     return 'Please enter a valid phrase';
@@ -20,4 +21,4 @@ function phrase(string = 'Please enter a valid phrase.') {
 
 // Log to console
 console.log(message);
-console.log(phrase('SOL is 4 poors'));
+phrase('I have a cat');
